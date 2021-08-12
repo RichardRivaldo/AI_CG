@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./style.css">
+    <title>PaintGL</title>
+</head>
+<body>
+    <div class="panel">
+        <h1>PaintGL</h1>
+        <div class="pencil-cont">
+            <input type="radio" name="tools" value="pencil" checked>
+                <i class="fas fa-pencil-alt"></i>
+            </input>
+        </div>
+        <div class="line-cont">
+            <input type="radio" name="tools" value="line">
+                <i class="fas fa-grip-lines-vertical"></i>
+            </input>
+        </div>
+        <div class="square-cont">
+            <input type="radio" name="tools" value="square">
+                <i class="fas fa-square"></i>
+            </input>
+        </div>
+        <div class="rect-cont">
+            <input type="radio" name="tools" value="rectangle">
+                <img src="./images/rect.svg">
+            </input>
+        </div>
+        <div class="color-cont">
+            <h1>Pallete</h1>
+            <input type="color" class="color"></input>
+        </div>
+    </div>
+    <div class="container">
+        <canvas class="canvas"></canvas>
+    </div>
+</body>
+</html>

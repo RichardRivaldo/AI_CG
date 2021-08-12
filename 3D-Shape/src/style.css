@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-size: 5vh;
+    font-weight: bold;
+    font-family: "Lora", serif;
+    color: rgb(93, 255, 201);
+    background-image: linear-gradient(75deg, #5bb2ff, #5b00a0);
+    column-gap: 10vh;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.container1 {
+    color: rgb(139, 0, 194);
+}
+
+.container2 {
+    color: rgb(122, 179, 255);
+}
+
+div {
+    position: relative;
+    text-align: center;
+    justify-items: center;
+    left: 7vh;
+}
+
+canvas {
+    width: 90vh;
+    height: 90vh;
+}
+
+i {
+    position: relative;
+    top: -50px;
+}
